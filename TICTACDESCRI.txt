@@ -1,0 +1,6 @@
+This code implements a simple console-based Tic Tac Toe game. It starts by asking the user if they want to play against another player or the computer. The game then proceeds with the player entering row and column indices to place their symbol ('X' or 'O') on the 3x3 board. If playing against the computer, the computer makes random moves.
+
+The game continues until there is a winner, a draw, or the user decides to stop playing. The winner is determined by checking rows, columns, and diagonals for matching symbols. The board is displayed after each move, and
+ the game announces the winner or a draw at the end of each round.
+
+The user can choose to play again after finishing a round. The loop continues until the user decides not to play anymore by entering "no" when prompted.
